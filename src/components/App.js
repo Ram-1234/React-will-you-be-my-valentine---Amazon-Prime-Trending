@@ -1,9 +1,14 @@
-import React, {Component, useState} from "react";
+import React from "react";
 import '../styles/App.css';
+import Container from "./Container";
 
-const App = () => {
+const App = ({slides}) => {
   return (
-    <></>
+    <>
+    <div className="App">
+    <Container slides={slides}/>
+    </div>
+    </>
   )
 }
 
